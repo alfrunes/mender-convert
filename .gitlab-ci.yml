@@ -16,6 +16,7 @@ stages:
 
 build:
   stage: build
+  image: docker:18-dind
   services:
     - docker:dind
   script:
